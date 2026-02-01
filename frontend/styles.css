@@ -1,0 +1,50 @@
+:root {
+  --primary: #6366f1;
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+}
+
+body {
+  background: #f1f5f9;
+  font-family: system-ui, sans-serif;
+}
+
+.navbar {
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.hero-icon {
+  width: 72px;
+  height: 72px;
+  background: var(--primary);
+  color: white;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: auto;
+}
+
+.upload-zone {
+  border: 2px dashed #cbd5e1;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  background: #fafafa;
+}
+
+.upload-zone:hover {
+  border-color: var(--primary);
+}
+
+.score-high { color: var(--success); font-weight: bold; }
+.score-medium { color: var(--warning); font-weight: bold; }
+.score-low { color: var(--danger); font-weight: bold; }
